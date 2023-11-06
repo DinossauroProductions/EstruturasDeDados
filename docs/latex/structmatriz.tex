@@ -1,0 +1,38 @@
+\hypertarget{structmatriz}{}\doxysection{Referência da Estrutura matriz}
+\label{structmatriz}\index{matriz@{matriz}}
+
+
+Armazena as dimensões da matriz e o ponteiro da matriz em si.  
+
+
+
+
+{\ttfamily \#include $<$matrizes.\+h$>$}
+
+\doxysubsection*{Campos de Dados}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{structmatriz_add06f3971c555fe76192c1ad0968033e}\label{structmatriz_add06f3971c555fe76192c1ad0968033e}} 
+float $\ast$ \mbox{\hyperlink{structmatriz_add06f3971c555fe76192c1ad0968033e}{p}}
+\begin{DoxyCompactList}\small\item\em Aponta para a matriz alocada na memória. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{structmatriz_af5b4d0b9a583700dc50c98934dae3cad}\label{structmatriz_af5b4d0b9a583700dc50c98934dae3cad}} 
+int \mbox{\hyperlink{structmatriz_af5b4d0b9a583700dc50c98934dae3cad}{linhas}}
+\begin{DoxyCompactList}\small\item\em Representa o número de linhas da matriz. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{structmatriz_a3158e9ea97822611b6f053c468bd250c}\label{structmatriz_a3158e9ea97822611b6f053c468bd250c}} 
+int \mbox{\hyperlink{structmatriz_a3158e9ea97822611b6f053c468bd250c}{colunas}}
+\begin{DoxyCompactList}\small\item\em Representa o número de colunas da matriz. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descrição detalhada}
+Armazena as dimensões da matriz e o ponteiro da matriz em si. 
+
+Armazena o ponteiro \textquotesingle{}p\textquotesingle{} do tipo (float $\ast$) que aponta o endereço de memória onde estão alocados os valores da matriz em si. Os parâmetros \textquotesingle{}linhas\textquotesingle{} e \textquotesingle{}colunas\textquotesingle{}, que são do tipo (int) indicam as dimensões da matriz. As funções da biblioteca gerenciam as matrizes, criando-\/as, acessando-\/as e realizando operações aritméticas.
+
+\begin{DoxyWarning}{Aviso}
+As informações apontadas por p não devem ser acessadas diretamente, apenas pelo uso das funções da biblioteca. O uso direto é desincentivado pois pode provocar erros de alocação de memória. 
+\end{DoxyWarning}
+
+
+A documentação para essa estrutura foi gerada a partir do seguinte arquivo\+:\begin{DoxyCompactItemize}
+\item 
+libs/\mbox{\hyperlink{matrizes_8h}{matrizes.\+h}}\end{DoxyCompactItemize}

@@ -1,0 +1,28 @@
+\hypertarget{cabessalho_8h}{}\doxysection{cabessalho.\+h File Reference}
+\label{cabessalho_8h}\index{cabessalho.h@{cabessalho.h}}
+
+
+Projeto destinado a estudos de Estruturas de Dados.  
+
+
+{\ttfamily \#include \char`\"{}libs/matrizes.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Listas/\+Listas.\+h\char`\"{}}\newline
+Include dependency graph for cabessalho.\+h\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{cabessalho_8h_a99f10b2dd6f2006dfe54db2ed1f87525}\label{cabessalho_8h_a99f10b2dd6f2006dfe54db2ed1f87525}} 
+int {\bfseries aritmetica\+Ponteiros\+Main} ()
+\item 
+\mbox{\Hypertarget{cabessalho_8h_a22135edf1352a52c2f8b8a59ce112df4}\label{cabessalho_8h_a22135edf1352a52c2f8b8a59ce112df4}} 
+int {\bfseries estrutura\+De\+Dados\+Main} ()
+\item 
+\mbox{\Hypertarget{cabessalho_8h_a1d52a558627bad55741b41bbce92b34e}\label{cabessalho_8h_a1d52a558627bad55741b41bbce92b34e}} 
+int {\bfseries exercicios\+Ponteiros\+Main} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Projeto destinado a estudos de Estruturas de Dados. 
+

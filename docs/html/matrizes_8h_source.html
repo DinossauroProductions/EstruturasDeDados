@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Estruturas de Dados: Código-Fonte de libs/matrizes.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Estruturas de Dados
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Projeto de estudos da disciplina de Estrutura de Dados, incluindo implementações e exercícios.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Busca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">matrizes.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="matrizes_8h.html">Vá para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">// Comando para &quot;compilar&quot; o doc: doxygen docs/doxygenConfig</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">// Created by guilherme on 19/09/23.</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#ifndef OPENGL_MATRIZES_H</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#define OPENGL_MATRIZES_H</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &lt;math.h&gt;</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#include &quot;arquivos.h&quot;</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keywordtype">int</span> testarMultiplicassao();</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="structmatriz.html">   58</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structmatriz.html">matriz</a>{</div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="structmatriz.html#add06f3971c555fe76192c1ad0968033e">   59</a></span>&#160;    <span class="keywordtype">float</span> *<a class="code" href="structmatriz.html#add06f3971c555fe76192c1ad0968033e">p</a>;</div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="structmatriz.html#a3158e9ea97822611b6f053c468bd250c">   60</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structmatriz.html#af5b4d0b9a583700dc50c98934dae3cad">linhas</a>, <a class="code" href="structmatriz.html#a3158e9ea97822611b6f053c468bd250c">colunas</a>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;}<span class="keyword">typedef</span> MatrizF;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="keywordtype">void</span> <a class="code" href="matrizes_8h.html#a131eed81af75f3c6897a910f6299bf33">alocarPonteiro</a>(MatrizF* mat);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;MatrizF* <a class="code" href="matrizes_8h.html#a51385d9b072d2ad0d4c92d770f3c9266">criarMatrizF</a>(<span class="keywordtype">int</span> linhas, <span class="keywordtype">int</span> colunas);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;MatrizF* <a class="code" href="matrizes_8h.html#a2259b0c94ad75b2a6d7eccc02b25b834">criarMatrizFP</a>(<span class="keywordtype">int</span> linhas, <span class="keywordtype">int</span> colunas);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;MatrizF* <a class="code" href="matrizes_8h.html#afce4635944e26a83b99f223c0b0b5730">criarMatrizFile</a>(<span class="keywordtype">char</span>* path, <span class="keywordtype">char</span>* nome);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="keywordtype">void</span> <a class="code" href="matrizes_8h.html#ae566994fea011e52848bfef5efe83791">redefinirMatriz</a>(MatrizF *mat, <span class="keywordtype">float</span> valor);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="keywordtype">void</span> <a class="code" href="matrizes_8h.html#aac044c254ae19ba43db6e0744b39db10">zerarMatriz</a>(MatrizF *mat);</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;<span class="keywordtype">void</span> <a class="code" href="matrizes_8h.html#a3603a7aed3754232acfa6a8c7121a9c3">freeM</a>(MatrizF *mat);</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="keywordtype">float</span>* <a class="code" href="matrizes_8h.html#a4e53cacc2eeca4f6d3ee2c3d8bf3363b">getMF</a>(MatrizF *mat, <span class="keywordtype">int</span> linha, <span class="keywordtype">int</span> coluna);</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="keywordtype">void</span> <a class="code" href="matrizes_8h.html#a9b690c2a59fa80d538ac07eb57e9148b">printaMatriz</a>(MatrizF* mat);</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; </div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="keywordtype">int</span> <a class="code" href="matrizes_8h.html#a86cf9411de82ef0668eab5fab6dd8339">somarMatriz</a>(MatrizF *mat1, MatrizF *mat2);</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;<span class="keywordtype">int</span> <a class="code" href="matrizes_8h.html#a6b36a3425747ec0fcb0d6d2432eae56f">subtrairMatriz</a>(MatrizF *mat1, MatrizF *mat2);</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;MatrizF* <a class="code" href="matrizes_8h.html#ae9843bf1ba9b934b2c4b321830085bbf">multiplicarMatriz</a>(MatrizF *mat1, MatrizF *mat2);</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;<span class="keywordtype">float</span> <a class="code" href="matrizes_8h.html#a692ec5d5737f24cbea70869b14418444">calcularCofator</a>(MatrizF *mat, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y);</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;<span class="keywordtype">float</span> <a class="code" href="matrizes_8h.html#a6ad2d55cbb74085f401e00055d0a9b22">calcularDeterminante</a>(MatrizF *mat);</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160; </div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;MatrizF* <a class="code" href="matrizes_8h.html#a3db4115e39e512c7d4d628bbf28b9e54">matrizRotacional2D</a>(<span class="keywordtype">float</span> angulo, <span class="keywordtype">int</span> tamanho);</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160; </div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160; </div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//OPENGL_MATRIZES_H</span></div>
+<div class="ttc" id="amatrizes_8h_html_a131eed81af75f3c6897a910f6299bf33"><div class="ttname"><a href="matrizes_8h.html#a131eed81af75f3c6897a910f6299bf33">alocarPonteiro</a></div><div class="ttdeci">void alocarPonteiro(MatrizF *mat)</div><div class="ttdoc">Aloca o espaço de memória necessário para a MatrizF no ponteiro p.</div><div class="ttdef"><b>Definition:</b> matrizes.c:69</div></div>
+<div class="ttc" id="amatrizes_8h_html_a2259b0c94ad75b2a6d7eccc02b25b834"><div class="ttname"><a href="matrizes_8h.html#a2259b0c94ad75b2a6d7eccc02b25b834">criarMatrizFP</a></div><div class="ttdeci">MatrizF * criarMatrizFP(int linhas, int colunas)</div><div class="ttdoc">Cria a MatrizF e não aloca a memória da matriz.</div><div class="ttdef"><b>Definition:</b> matrizes.c:89</div></div>
+<div class="ttc" id="amatrizes_8h_html_a3603a7aed3754232acfa6a8c7121a9c3"><div class="ttname"><a href="matrizes_8h.html#a3603a7aed3754232acfa6a8c7121a9c3">freeM</a></div><div class="ttdeci">void freeM(MatrizF *mat)</div><div class="ttdoc">Libera os valores do ponteiro da matriz, assim como a struct da matriz em si.</div><div class="ttdef"><b>Definition:</b> matrizes.c:123</div></div>
+<div class="ttc" id="amatrizes_8h_html_a3db4115e39e512c7d4d628bbf28b9e54"><div class="ttname"><a href="matrizes_8h.html#a3db4115e39e512c7d4d628bbf28b9e54">matrizRotacional2D</a></div><div class="ttdeci">MatrizF * matrizRotacional2D(float angulo, int tamanho)</div><div class="ttdoc">Retorna uma nova MatrizF que representa uma matriz de rotação no espaço 2D.</div><div class="ttdef"><b>Definition:</b> matrizes.c:285</div></div>
+<div class="ttc" id="amatrizes_8h_html_a4e53cacc2eeca4f6d3ee2c3d8bf3363b"><div class="ttname"><a href="matrizes_8h.html#a4e53cacc2eeca4f6d3ee2c3d8bf3363b">getMF</a></div><div class="ttdeci">float * getMF(MatrizF *mat, int linha, int coluna)</div><div class="ttdoc">Retorna o ponteiro para um elemento da matriz, dado pelas coordenadas (em sistema matemático).</div><div class="ttdef"><b>Definition:</b> matrizes.c:129</div></div>
+<div class="ttc" id="amatrizes_8h_html_a51385d9b072d2ad0d4c92d770f3c9266"><div class="ttname"><a href="matrizes_8h.html#a51385d9b072d2ad0d4c92d770f3c9266">criarMatrizF</a></div><div class="ttdeci">MatrizF * criarMatrizF(int linhas, int colunas)</div><div class="ttdoc">Cria a MatrizF e define seus elementos como 0.</div><div class="ttdef"><b>Definition:</b> matrizes.c:77</div></div>
+<div class="ttc" id="amatrizes_8h_html_a692ec5d5737f24cbea70869b14418444"><div class="ttname"><a href="matrizes_8h.html#a692ec5d5737f24cbea70869b14418444">calcularCofator</a></div><div class="ttdeci">float calcularCofator(MatrizF *mat, int x, int y)</div><div class="ttdoc">Calcula o cofator da Matriz, dado o elemento na posição x, y (em sistema matemático de Matrizes).</div><div class="ttdef"><b>Definition:</b> matrizes.c:179</div></div>
+<div class="ttc" id="amatrizes_8h_html_a6ad2d55cbb74085f401e00055d0a9b22"><div class="ttname"><a href="matrizes_8h.html#a6ad2d55cbb74085f401e00055d0a9b22">calcularDeterminante</a></div><div class="ttdeci">float calcularDeterminante(MatrizF *mat)</div><div class="ttdoc">Calcula a Determinante da MatrizF passada.</div><div class="ttdef"><b>Definition:</b> matrizes.c:135</div></div>
+<div class="ttc" id="amatrizes_8h_html_a6b36a3425747ec0fcb0d6d2432eae56f"><div class="ttname"><a href="matrizes_8h.html#a6b36a3425747ec0fcb0d6d2432eae56f">subtrairMatriz</a></div><div class="ttdeci">int subtrairMatriz(MatrizF *mat1, MatrizF *mat2)</div><div class="ttdoc">Subtrai as matrizes e armazena o resultado na matriz 1.</div><div class="ttdef"><b>Definition:</b> matrizes.c:242</div></div>
+<div class="ttc" id="amatrizes_8h_html_a86cf9411de82ef0668eab5fab6dd8339"><div class="ttname"><a href="matrizes_8h.html#a86cf9411de82ef0668eab5fab6dd8339">somarMatriz</a></div><div class="ttdeci">int somarMatriz(MatrizF *mat1, MatrizF *mat2)</div><div class="ttdoc">Soma as matrizes e armazena o resultado na matriz 1.</div><div class="ttdef"><b>Definition:</b> matrizes.c:225</div></div>
+<div class="ttc" id="amatrizes_8h_html_a9b690c2a59fa80d538ac07eb57e9148b"><div class="ttname"><a href="matrizes_8h.html#a9b690c2a59fa80d538ac07eb57e9148b">printaMatriz</a></div><div class="ttdeci">void printaMatriz(MatrizF *mat)</div><div class="ttdoc">Printa a matriz passada.</div><div class="ttdef"><b>Definition:</b> matrizes.c:310</div></div>
+<div class="ttc" id="amatrizes_8h_html_aac044c254ae19ba43db6e0744b39db10"><div class="ttname"><a href="matrizes_8h.html#aac044c254ae19ba43db6e0744b39db10">zerarMatriz</a></div><div class="ttdeci">void zerarMatriz(MatrizF *mat)</div><div class="ttdoc">Define todos os elementos da matriz para zero.</div><div class="ttdef"><b>Definition:</b> matrizes.c:110</div></div>
+<div class="ttc" id="amatrizes_8h_html_ae566994fea011e52848bfef5efe83791"><div class="ttname"><a href="matrizes_8h.html#ae566994fea011e52848bfef5efe83791">redefinirMatriz</a></div><div class="ttdeci">void redefinirMatriz(MatrizF *mat, float valor)</div><div class="ttdoc">Define todos os elementos da matriz como iguais ao valor.</div><div class="ttdef"><b>Definition:</b> matrizes.c:114</div></div>
+<div class="ttc" id="amatrizes_8h_html_ae9843bf1ba9b934b2c4b321830085bbf"><div class="ttname"><a href="matrizes_8h.html#ae9843bf1ba9b934b2c4b321830085bbf">multiplicarMatriz</a></div><div class="ttdeci">MatrizF * multiplicarMatriz(MatrizF *mat1, MatrizF *mat2)</div><div class="ttdoc">Retorna o ponteiro MatrizF de mat1 e mat2.</div><div class="ttdef"><b>Definition:</b> matrizes.c:259</div></div>
+<div class="ttc" id="amatrizes_8h_html_afce4635944e26a83b99f223c0b0b5730"><div class="ttname"><a href="matrizes_8h.html#afce4635944e26a83b99f223c0b0b5730">criarMatrizFile</a></div><div class="ttdeci">MatrizF * criarMatrizFile(char *path, char *nome)</div><div class="ttdoc">Cria a MatrizF e define seus valores aos do arquivo passado.</div><div class="ttdef"><b>Definition:</b> matrizes.c:104</div></div>
+<div class="ttc" id="astructmatriz_html"><div class="ttname"><a href="structmatriz.html">matriz</a></div><div class="ttdoc">Armazena as dimensões da matriz e o ponteiro da matriz em si.</div><div class="ttdef"><b>Definition:</b> matrizes.h:58</div></div>
+<div class="ttc" id="astructmatriz_html_a3158e9ea97822611b6f053c468bd250c"><div class="ttname"><a href="structmatriz.html#a3158e9ea97822611b6f053c468bd250c">matriz::colunas</a></div><div class="ttdeci">int colunas</div><div class="ttdoc">Representa o número de colunas da matriz.</div><div class="ttdef"><b>Definition:</b> matrizes.h:60</div></div>
+<div class="ttc" id="astructmatriz_html_add06f3971c555fe76192c1ad0968033e"><div class="ttname"><a href="structmatriz.html#add06f3971c555fe76192c1ad0968033e">matriz::p</a></div><div class="ttdeci">float * p</div><div class="ttdoc">Aponta para a matriz alocada na memória.</div><div class="ttdef"><b>Definition:</b> matrizes.h:59</div></div>
+<div class="ttc" id="astructmatriz_html_af5b4d0b9a583700dc50c98934dae3cad"><div class="ttname"><a href="structmatriz.html#af5b4d0b9a583700dc50c98934dae3cad">matriz::linhas</a></div><div class="ttdeci">int linhas</div><div class="ttdoc">Representa o número de linhas da matriz.</div><div class="ttdef"><b>Definition:</b> matrizes.h:60</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

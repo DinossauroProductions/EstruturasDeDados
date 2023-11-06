@@ -1,0 +1,3 @@
+/home/guilherme/CLionProjects/EstruturasDeDados/cmake-build-debug/CMakeFiles/EstruturasDeDados.dir
+/home/guilherme/CLionProjects/EstruturasDeDados/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/guilherme/CLionProjects/EstruturasDeDados/cmake-build-debug/CMakeFiles/rebuild_cache.dir
