@@ -1,20 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <locale.h>
-#include <time.h>
-
-#include "../Main.h"
-
-
-//geração de dados
-void gerarAleatorioOrdenado(int *vetor, int n);
-void gerarAleatorio(int *vetor, int n);
-
-//ordenação de dados
-void bubbleSort(int *vetor, int n);
-
-//busca de dados
-int binarySearch(int *vetor, int chave, int n);
+#include "buscas.h"
 
 #define TAMANHO 100
 

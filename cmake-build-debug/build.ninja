@@ -49,41 +49,23 @@ cmake_ninja_workdir = /home/guilherme/CLionProjects/EstruturasDeDados/cmake-buil
 
 build cmake_object_order_depends_target_EstruturasDeDados: phony || CMakeFiles/EstruturasDeDados.dir
 
-build CMakeFiles/EstruturasDeDados.dir/Exercicios/buscas.c.o: C_COMPILER__EstruturasDeDados_Debug /home/guilherme/CLionProjects/EstruturasDeDados/Exercicios/buscas.c || cmake_object_order_depends_target_EstruturasDeDados
-  DEP_FILE = CMakeFiles/EstruturasDeDados.dir/Exercicios/buscas.c.o.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles/EstruturasDeDados.dir
-  OBJECT_FILE_DIR = CMakeFiles/EstruturasDeDados.dir/Exercicios
-
-build CMakeFiles/EstruturasDeDados.dir/Exercicios/aritmeticaPonteiros2.c.o: C_COMPILER__EstruturasDeDados_Debug /home/guilherme/CLionProjects/EstruturasDeDados/Exercicios/aritmeticaPonteiros2.c || cmake_object_order_depends_target_EstruturasDeDados
-  DEP_FILE = CMakeFiles/EstruturasDeDados.dir/Exercicios/aritmeticaPonteiros2.c.o.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles/EstruturasDeDados.dir
-  OBJECT_FILE_DIR = CMakeFiles/EstruturasDeDados.dir/Exercicios
-
 build CMakeFiles/EstruturasDeDados.dir/Main.c.o: C_COMPILER__EstruturasDeDados_Debug /home/guilherme/CLionProjects/EstruturasDeDados/Main.c || cmake_object_order_depends_target_EstruturasDeDados
   DEP_FILE = CMakeFiles/EstruturasDeDados.dir/Main.c.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles/EstruturasDeDados.dir
   OBJECT_FILE_DIR = CMakeFiles/EstruturasDeDados.dir
 
-build CMakeFiles/EstruturasDeDados.dir/Exercicios/exerciciosPonteiros.c.o: C_COMPILER__EstruturasDeDados_Debug /home/guilherme/CLionProjects/EstruturasDeDados/Exercicios/exerciciosPonteiros.c || cmake_object_order_depends_target_EstruturasDeDados
-  DEP_FILE = CMakeFiles/EstruturasDeDados.dir/Exercicios/exerciciosPonteiros.c.o.d
+build CMakeFiles/EstruturasDeDados.dir/Libs/Arquivos.c.o: C_COMPILER__EstruturasDeDados_Debug /home/guilherme/CLionProjects/EstruturasDeDados/Libs/Arquivos.c || cmake_object_order_depends_target_EstruturasDeDados
+  DEP_FILE = CMakeFiles/EstruturasDeDados.dir/Libs/Arquivos.c.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles/EstruturasDeDados.dir
-  OBJECT_FILE_DIR = CMakeFiles/EstruturasDeDados.dir/Exercicios
+  OBJECT_FILE_DIR = CMakeFiles/EstruturasDeDados.dir/Libs
 
-build CMakeFiles/EstruturasDeDados.dir/libs/Arquivos.c.o: C_COMPILER__EstruturasDeDados_Debug /home/guilherme/CLionProjects/EstruturasDeDados/libs/Arquivos.c || cmake_object_order_depends_target_EstruturasDeDados
-  DEP_FILE = CMakeFiles/EstruturasDeDados.dir/libs/Arquivos.c.o.d
+build CMakeFiles/EstruturasDeDados.dir/Libs/Matrizes.c.o: C_COMPILER__EstruturasDeDados_Debug /home/guilherme/CLionProjects/EstruturasDeDados/Libs/Matrizes.c || cmake_object_order_depends_target_EstruturasDeDados
+  DEP_FILE = CMakeFiles/EstruturasDeDados.dir/Libs/Matrizes.c.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles/EstruturasDeDados.dir
-  OBJECT_FILE_DIR = CMakeFiles/EstruturasDeDados.dir/libs
-
-build CMakeFiles/EstruturasDeDados.dir/libs/Matrizes.c.o: C_COMPILER__EstruturasDeDados_Debug /home/guilherme/CLionProjects/EstruturasDeDados/libs/Matrizes.c || cmake_object_order_depends_target_EstruturasDeDados
-  DEP_FILE = CMakeFiles/EstruturasDeDados.dir/libs/Matrizes.c.o.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles/EstruturasDeDados.dir
-  OBJECT_FILE_DIR = CMakeFiles/EstruturasDeDados.dir/libs
+  OBJECT_FILE_DIR = CMakeFiles/EstruturasDeDados.dir/Libs
 
 build CMakeFiles/EstruturasDeDados.dir/Listas/ListaEncadeada.c.o: C_COMPILER__EstruturasDeDados_Debug /home/guilherme/CLionProjects/EstruturasDeDados/Listas/ListaEncadeada.c || cmake_object_order_depends_target_EstruturasDeDados
   DEP_FILE = CMakeFiles/EstruturasDeDados.dir/Listas/ListaEncadeada.c.o.d
@@ -97,6 +79,48 @@ build CMakeFiles/EstruturasDeDados.dir/Listas/ListaContiguaDinamica.c.o: C_COMPI
   OBJECT_DIR = CMakeFiles/EstruturasDeDados.dir
   OBJECT_FILE_DIR = CMakeFiles/EstruturasDeDados.dir/Listas
 
+build CMakeFiles/EstruturasDeDados.dir/Listas/ListaLIFOEncadeada.c.o: C_COMPILER__EstruturasDeDados_Debug /home/guilherme/CLionProjects/EstruturasDeDados/Listas/ListaLIFOEncadeada.c || cmake_object_order_depends_target_EstruturasDeDados
+  DEP_FILE = CMakeFiles/EstruturasDeDados.dir/Listas/ListaLIFOEncadeada.c.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles/EstruturasDeDados.dir
+  OBJECT_FILE_DIR = CMakeFiles/EstruturasDeDados.dir/Listas
+
+build CMakeFiles/EstruturasDeDados.dir/Exercicios/aritmeticaPonteiros.c.o: C_COMPILER__EstruturasDeDados_Debug /home/guilherme/CLionProjects/EstruturasDeDados/Exercicios/aritmeticaPonteiros.c || cmake_object_order_depends_target_EstruturasDeDados
+  DEP_FILE = CMakeFiles/EstruturasDeDados.dir/Exercicios/aritmeticaPonteiros.c.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles/EstruturasDeDados.dir
+  OBJECT_FILE_DIR = CMakeFiles/EstruturasDeDados.dir/Exercicios
+
+build CMakeFiles/EstruturasDeDados.dir/Exercicios/stringsPonteiros.c.o: C_COMPILER__EstruturasDeDados_Debug /home/guilherme/CLionProjects/EstruturasDeDados/Exercicios/stringsPonteiros.c || cmake_object_order_depends_target_EstruturasDeDados
+  DEP_FILE = CMakeFiles/EstruturasDeDados.dir/Exercicios/stringsPonteiros.c.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles/EstruturasDeDados.dir
+  OBJECT_FILE_DIR = CMakeFiles/EstruturasDeDados.dir/Exercicios
+
+build CMakeFiles/EstruturasDeDados.dir/Exercicios/buscas.c.o: C_COMPILER__EstruturasDeDados_Debug /home/guilherme/CLionProjects/EstruturasDeDados/Exercicios/buscas.c || cmake_object_order_depends_target_EstruturasDeDados
+  DEP_FILE = CMakeFiles/EstruturasDeDados.dir/Exercicios/buscas.c.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles/EstruturasDeDados.dir
+  OBJECT_FILE_DIR = CMakeFiles/EstruturasDeDados.dir/Exercicios
+
+build CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_4_4-1.c.o: C_COMPILER__EstruturasDeDados_Debug /home/guilherme/CLionProjects/EstruturasDeDados/Exercicios/exercicio_4_4-1.c || cmake_object_order_depends_target_EstruturasDeDados
+  DEP_FILE = CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_4_4-1.c.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles/EstruturasDeDados.dir
+  OBJECT_FILE_DIR = CMakeFiles/EstruturasDeDados.dir/Exercicios
+
+build CMakeFiles/EstruturasDeDados.dir/Exercicios/Recursividade.c.o: C_COMPILER__EstruturasDeDados_Debug /home/guilherme/CLionProjects/EstruturasDeDados/Exercicios/Recursividade.c || cmake_object_order_depends_target_EstruturasDeDados
+  DEP_FILE = CMakeFiles/EstruturasDeDados.dir/Exercicios/Recursividade.c.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles/EstruturasDeDados.dir
+  OBJECT_FILE_DIR = CMakeFiles/EstruturasDeDados.dir/Exercicios
+
+build CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_4_4-4.c.o: C_COMPILER__EstruturasDeDados_Debug /home/guilherme/CLionProjects/EstruturasDeDados/Exercicios/exercicio_4_4-4.c || cmake_object_order_depends_target_EstruturasDeDados
+  DEP_FILE = CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_4_4-4.c.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles/EstruturasDeDados.dir
+  OBJECT_FILE_DIR = CMakeFiles/EstruturasDeDados.dir/Exercicios
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target EstruturasDeDados
@@ -105,7 +129,7 @@ build CMakeFiles/EstruturasDeDados.dir/Listas/ListaContiguaDinamica.c.o: C_COMPI
 #############################################
 # Link the executable EstruturasDeDados
 
-build EstruturasDeDados: C_EXECUTABLE_LINKER__EstruturasDeDados_Debug CMakeFiles/EstruturasDeDados.dir/Exercicios/buscas.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/aritmeticaPonteiros2.c.o CMakeFiles/EstruturasDeDados.dir/Main.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/exerciciosPonteiros.c.o CMakeFiles/EstruturasDeDados.dir/libs/Arquivos.c.o CMakeFiles/EstruturasDeDados.dir/libs/Matrizes.c.o CMakeFiles/EstruturasDeDados.dir/Listas/ListaEncadeada.c.o CMakeFiles/EstruturasDeDados.dir/Listas/ListaContiguaDinamica.c.o
+build EstruturasDeDados: C_EXECUTABLE_LINKER__EstruturasDeDados_Debug CMakeFiles/EstruturasDeDados.dir/Main.c.o CMakeFiles/EstruturasDeDados.dir/Libs/Arquivos.c.o CMakeFiles/EstruturasDeDados.dir/Libs/Matrizes.c.o CMakeFiles/EstruturasDeDados.dir/Listas/ListaEncadeada.c.o CMakeFiles/EstruturasDeDados.dir/Listas/ListaContiguaDinamica.c.o CMakeFiles/EstruturasDeDados.dir/Listas/ListaLIFOEncadeada.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/aritmeticaPonteiros.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/stringsPonteiros.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/buscas.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_4_4-1.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/Recursividade.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_4_4-4.c.o
   FLAGS = -g
   LINK_LIBRARIES = -lm
   OBJECT_DIR = CMakeFiles/EstruturasDeDados.dir

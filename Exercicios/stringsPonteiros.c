@@ -1,17 +1,4 @@
-#include "../Main.h"
-#include <stdlib.h>
-#include <stdio.h>
-
-//link do arquivo com os exercícios:
-//https://onedrive.live.com/?authkey=%21APFhlNLfXyggKW0&cid=7555D56F389BB5E9&id=7555D56F389BB5E9%21415889&parId=7555D56F389BB5E9%21414575&o=OneUp
-
-//Referente ao exercício 15
-float faturamentoTotal(float *vendas, int numeroVendas);
-
-//Referente ao exercício 25
-char* criarString(int tamanho);
-int tamanhoString(char* string);
-char* concatenarStrings(char* string1, char* string2);
+#include "stringsPonteiros.h"
 
 int exerciciosPonteirosMain(){
 
