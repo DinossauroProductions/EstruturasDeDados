@@ -15,6 +15,11 @@
 #include "Exercicios/exercicio_4_4-1.h"
 #include "Exercicios/exercicio_4_4-4.h"
 
+#include "Exercicios/exercicio_5_4-2.h"
+#include "Exercicios/exercicio_5_4-3.h"
+#include "Exercicios/exercicio_5_4-4.h"
+#include "Exercicios/exercicio_5_4-5.h"
+
 //matrizes
 #include "Libs/Matrizes.h"
 

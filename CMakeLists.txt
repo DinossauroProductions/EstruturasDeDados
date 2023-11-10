@@ -29,7 +29,7 @@ add_executable(EstruturasDeDados
         Exercicios/exercicio_4_4-1.c
         Exercicios/exercicio_4_4-1.h
         Exercicios/Recursividade.c
-        Exercicios/Recursividade.h Exercicios/exercicio_4_4-4.c Exercicios/exercicio_4_4-4.h)
+        Exercicios/Recursividade.h Exercicios/exercicio_4_4-4.c Exercicios/exercicio_4_4-4.h Exercicios/exercicio_5_4-2.c Exercicios/exercicio_5_4-2.h Exercicios/exercicio_5_4-3.c Exercicios/exercicio_5_4-3.h Exercicios/exercicio_5_4-4.c Exercicios/exercicio_5_4-4.h Exercicios/exercicio_5_4-5.c Exercicios/exercicio_5_4-5.h)
 
 target_link_libraries(EstruturasDeDados
         m)

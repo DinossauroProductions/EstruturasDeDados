@@ -14,8 +14,11 @@ int main(){
     //exerciciosPonteirosMain();
     //mainRecursividade();
     //exercicio_4_4_1();
-    exercicio_4_4_4();
-
+    //exercicio_4_4_4();
+    //exercicio_5_4_2();
+    //exercicio_5_4_3();
+    //exercicio_5_4_4();
+    //exercicio_5_4_5();
 
     //Testar Bibliotecas
 

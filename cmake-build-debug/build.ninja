@@ -121,6 +121,30 @@ build CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_4_4-4.c.o: C_COMPILE
   OBJECT_DIR = CMakeFiles/EstruturasDeDados.dir
   OBJECT_FILE_DIR = CMakeFiles/EstruturasDeDados.dir/Exercicios
 
+build CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_5_4-2.c.o: C_COMPILER__EstruturasDeDados_Debug /home/guilherme/CLionProjects/EstruturasDeDados/Exercicios/exercicio_5_4-2.c || cmake_object_order_depends_target_EstruturasDeDados
+  DEP_FILE = CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_5_4-2.c.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles/EstruturasDeDados.dir
+  OBJECT_FILE_DIR = CMakeFiles/EstruturasDeDados.dir/Exercicios
+
+build CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_5_4-3.c.o: C_COMPILER__EstruturasDeDados_Debug /home/guilherme/CLionProjects/EstruturasDeDados/Exercicios/exercicio_5_4-3.c || cmake_object_order_depends_target_EstruturasDeDados
+  DEP_FILE = CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_5_4-3.c.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles/EstruturasDeDados.dir
+  OBJECT_FILE_DIR = CMakeFiles/EstruturasDeDados.dir/Exercicios
+
+build CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_5_4-4.c.o: C_COMPILER__EstruturasDeDados_Debug /home/guilherme/CLionProjects/EstruturasDeDados/Exercicios/exercicio_5_4-4.c || cmake_object_order_depends_target_EstruturasDeDados
+  DEP_FILE = CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_5_4-4.c.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles/EstruturasDeDados.dir
+  OBJECT_FILE_DIR = CMakeFiles/EstruturasDeDados.dir/Exercicios
+
+build CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_5_4-5.c.o: C_COMPILER__EstruturasDeDados_Debug /home/guilherme/CLionProjects/EstruturasDeDados/Exercicios/exercicio_5_4-5.c || cmake_object_order_depends_target_EstruturasDeDados
+  DEP_FILE = CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_5_4-5.c.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles/EstruturasDeDados.dir
+  OBJECT_FILE_DIR = CMakeFiles/EstruturasDeDados.dir/Exercicios
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target EstruturasDeDados
@@ -129,7 +153,7 @@ build CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_4_4-4.c.o: C_COMPILE
 #############################################
 # Link the executable EstruturasDeDados
 
-build EstruturasDeDados: C_EXECUTABLE_LINKER__EstruturasDeDados_Debug CMakeFiles/EstruturasDeDados.dir/Main.c.o CMakeFiles/EstruturasDeDados.dir/Libs/Arquivos.c.o CMakeFiles/EstruturasDeDados.dir/Libs/Matrizes.c.o CMakeFiles/EstruturasDeDados.dir/Listas/ListaEncadeada.c.o CMakeFiles/EstruturasDeDados.dir/Listas/ListaContiguaDinamica.c.o CMakeFiles/EstruturasDeDados.dir/Listas/ListaLIFOEncadeada.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/aritmeticaPonteiros.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/stringsPonteiros.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/buscas.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_4_4-1.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/Recursividade.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_4_4-4.c.o
+build EstruturasDeDados: C_EXECUTABLE_LINKER__EstruturasDeDados_Debug CMakeFiles/EstruturasDeDados.dir/Main.c.o CMakeFiles/EstruturasDeDados.dir/Libs/Arquivos.c.o CMakeFiles/EstruturasDeDados.dir/Libs/Matrizes.c.o CMakeFiles/EstruturasDeDados.dir/Listas/ListaEncadeada.c.o CMakeFiles/EstruturasDeDados.dir/Listas/ListaContiguaDinamica.c.o CMakeFiles/EstruturasDeDados.dir/Listas/ListaLIFOEncadeada.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/aritmeticaPonteiros.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/stringsPonteiros.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/buscas.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_4_4-1.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/Recursividade.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_4_4-4.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_5_4-2.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_5_4-3.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_5_4-4.c.o CMakeFiles/EstruturasDeDados.dir/Exercicios/exercicio_5_4-5.c.o
   FLAGS = -g
   LINK_LIBRARIES = -lm
   OBJECT_DIR = CMakeFiles/EstruturasDeDados.dir
