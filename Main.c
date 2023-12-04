@@ -19,6 +19,7 @@ int main(){
     //exercicio_5_4_3();
     //exercicio_5_4_4();
     //exercicio_5_4_5();
+    exercicio_8_3_1();
 
     //Testar Bibliotecas
 
@@ -31,7 +32,9 @@ int main(){
     //mainListasContiguas();
     //mainListasEncadeadas();
 
+    // Estruturas em Árvore
 
+    //mainArvoreBinaria();
 
 
 

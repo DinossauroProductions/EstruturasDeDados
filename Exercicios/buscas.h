@@ -18,7 +18,7 @@ void gerarAleatorio(int *vetor, int n);
 //ordenação de dados
 void bubbleSort(int *vetor, int n);
 
-//busca de dados
+//e_busca de dados
 int binarySearch(int *vetor, int chave, int n);
 
 #endif //ESTRUTURASDEDADOS_BUSCAS_H

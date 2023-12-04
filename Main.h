@@ -14,12 +14,11 @@
 #include "Exercicios/Recursividade.h"
 #include "Exercicios/exercicio_4_4-1.h"
 #include "Exercicios/exercicio_4_4-4.h"
-
 #include "Exercicios/exercicio_5_4-2.h"
 #include "Exercicios/exercicio_5_4-3.h"
 #include "Exercicios/exercicio_5_4-4.h"
 #include "Exercicios/exercicio_5_4-5.h"
-
+#include "Exercicios/exercicio_8_3-1:2:3.h"
 //matrizes
 #include "Libs/Matrizes.h"
 
@@ -27,6 +26,9 @@
 #include "Listas/ListaEncadeada.h"
 #include "Listas/ListaContiguaDinamica.h"
 #include "Listas/ListaLIFOEncadeada.h"
+
+//Árvores
+#include "Arvores/ArvoreBinaria.h"
 
 char* verificarOS();
 
