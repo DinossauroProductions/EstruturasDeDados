@@ -1,0 +1,60 @@
+\hypertarget{ListaEncadeada_8h}{}\doxysection{Referência do Arquivo Listas/\+Lista\+Encadeada.h}
+\label{ListaEncadeada_8h}\index{Listas/ListaEncadeada.h@{Listas/ListaEncadeada.h}}
+
+
+Pequena implementação de Listas Encadeadas, como estudo de Estrutura de Dados.  
+
+
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+Gráfico de dependência de inclusões para Lista\+Encadeada.\+h\+:
+% FIG 0
+Este grafo mostra quais arquivos estão direta ou indiretamente relacionados com esse arquivo\+:
+% FIG 1
+\doxysubsection*{Definições de Tipos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{ListaEncadeada_8h_aa54b01872801327b363e1bb1873a7f08}\label{ListaEncadeada_8h_aa54b01872801327b363e1bb1873a7f08}} 
+typedef struct \mbox{\hyperlink{structElemento}{Elemento}} {\bfseries Elemento}
+\item 
+\mbox{\Hypertarget{ListaEncadeada_8h_a5b6592690e30e7ae996fc80bb0dddd2f}\label{ListaEncadeada_8h_a5b6592690e30e7ae996fc80bb0dddd2f}} 
+typedef struct \mbox{\hyperlink{structLiEncadeada}{Li\+Encadeada}} {\bfseries Li\+Encadeada}
+\end{DoxyCompactItemize}
+\doxysubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{ListaEncadeada_8h_a435a00dee474ae4b7a885f872f2ea524}\label{ListaEncadeada_8h_a435a00dee474ae4b7a885f872f2ea524}} 
+void {\bfseries main\+Listas\+Encadeadas} ()
+\item 
+\mbox{\Hypertarget{ListaEncadeada_8h_a1542c003f1acdd12e12ab9a8f1b68d0c}\label{ListaEncadeada_8h_a1542c003f1acdd12e12ab9a8f1b68d0c}} 
+\mbox{\hyperlink{structLiEncadeada}{Li\+Encadeada}} $\ast$ {\bfseries cria\+Lista} ()
+\item 
+\mbox{\Hypertarget{ListaEncadeada_8h_ac388816e28adceecbd8d0dd6a61b7fa3}\label{ListaEncadeada_8h_ac388816e28adceecbd8d0dd6a61b7fa3}} 
+\mbox{\hyperlink{structLiEncadeada}{Li\+Encadeada}} $\ast$ {\bfseries insere\+Elemento\+Inicio} (\mbox{\hyperlink{structLiEncadeada}{Li\+Encadeada}} $\ast$atual, \mbox{\hyperlink{structLiEncadeada}{Li\+Encadeada}} no)
+\item 
+\mbox{\Hypertarget{ListaEncadeada_8h_a792392bb6ce41341bf126308e1e2595c}\label{ListaEncadeada_8h_a792392bb6ce41341bf126308e1e2595c}} 
+\mbox{\hyperlink{structLiEncadeada}{Li\+Encadeada}} $\ast$ {\bfseries insere\+Elemento\+Final} (\mbox{\hyperlink{structLiEncadeada}{Li\+Encadeada}} $\ast$atual, \mbox{\hyperlink{structLiEncadeada}{Li\+Encadeada}} no)
+\item 
+\mbox{\Hypertarget{ListaEncadeada_8h_ae2423c306c13075dc5f5336b02c89161}\label{ListaEncadeada_8h_ae2423c306c13075dc5f5336b02c89161}} 
+\mbox{\hyperlink{structLiEncadeada}{Li\+Encadeada}} $\ast$ {\bfseries busca\+Elemento} (\mbox{\hyperlink{structLiEncadeada}{Li\+Encadeada}} $\ast$atual, int identificador)
+\item 
+\mbox{\Hypertarget{ListaEncadeada_8h_a824031098e07e01d58f1b40b4757eb12}\label{ListaEncadeada_8h_a824031098e07e01d58f1b40b4757eb12}} 
+\mbox{\hyperlink{structLiEncadeada}{Li\+Encadeada}} $\ast$ {\bfseries remove\+Elemento} (\mbox{\hyperlink{structLiEncadeada}{Li\+Encadeada}} $\ast$atual, int identificador)
+\item 
+\mbox{\Hypertarget{ListaEncadeada_8h_a7f3f56d1f35869bf9b599cb467df997a}\label{ListaEncadeada_8h_a7f3f56d1f35869bf9b599cb467df997a}} 
+void {\bfseries libera\+Lista} (\mbox{\hyperlink{structLiEncadeada}{Li\+Encadeada}} $\ast$atual)
+\item 
+\mbox{\Hypertarget{ListaEncadeada_8h_ae4c0961e205238552a27079278fa1050}\label{ListaEncadeada_8h_ae4c0961e205238552a27079278fa1050}} 
+void {\bfseries imprime\+Aluno} (\mbox{\hyperlink{structLiEncadeada}{Li\+Encadeada}} $\ast$atual)
+\item 
+\mbox{\Hypertarget{ListaEncadeada_8h_a1ba76c5ef2ff8fe02f22448a36706933}\label{ListaEncadeada_8h_a1ba76c5ef2ff8fe02f22448a36706933}} 
+void {\bfseries imprime\+Lista} (\mbox{\hyperlink{structLiEncadeada}{Li\+Encadeada}} $\ast$atual)
+\item 
+\mbox{\Hypertarget{ListaEncadeada_8h_aae53f8296fbd866e4c6f9c31258900f1}\label{ListaEncadeada_8h_aae53f8296fbd866e4c6f9c31258900f1}} 
+float {\bfseries media\+Alunos} (\mbox{\hyperlink{structLiEncadeada}{Li\+Encadeada}} $\ast$atual)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descrição detalhada}
+Pequena implementação de Listas Encadeadas, como estudo de Estrutura de Dados. 
+

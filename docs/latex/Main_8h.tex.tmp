@@ -25,11 +25,26 @@ Gráfico de dependência de inclusões para Main.\+h\+:
 \doxysubsection*{Funções}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{Main_8h_a8d5fdfeebf8cf2f3e1c43caf4f4e5af5}\label{Main_8h_a8d5fdfeebf8cf2f3e1c43caf4f4e5af5}} 
-char $\ast$ {\bfseries verificar\+OS} ()
-\end{DoxyCompactItemize}
+char $\ast$ \mbox{\hyperlink{Main_8h_a8d5fdfeebf8cf2f3e1c43caf4f4e5af5}{verificar\+OS}} ()
+\begin{DoxyCompactList}\small\item\em Verifica o sistema operacional atual. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Descrição detalhada}
 Projeto destinado a estudos de Estruturas de Dados. 
 
+Arquivo header referente ao arquivo \char`\"{}\+Main.\+c\char`\"{}, que referencia todos os outros arquivos a serem executados. Cada arquivo contém um código exclusivo a si, destinado a um propósito, e possui uma função que pode ser chamada apartir da main para executá-\/lo. 
+
+\doxysubsection{Funções}
+\mbox{\Hypertarget{Main_8h_a8d5fdfeebf8cf2f3e1c43caf4f4e5af5}\label{Main_8h_a8d5fdfeebf8cf2f3e1c43caf4f4e5af5}} 
+\index{Main.h@{Main.h}!verificarOS@{verificarOS}}
+\index{verificarOS@{verificarOS}!Main.h@{Main.h}}
+\doxysubsubsection{\texorpdfstring{verificarOS()}{verificarOS()}}
+{\footnotesize\ttfamily char$\ast$ verificar\+OS (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Verifica o sistema operacional atual. 
+
+\begin{DoxyReturn}{Retorna}
+Um string \char`\"{}linux\char`\"{} para sistemas linux ou \char`\"{}windows\char`\"{} para sistemas windows. 
+\end{DoxyReturn}

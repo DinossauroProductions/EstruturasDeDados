@@ -1,0 +1,110 @@
+\hypertarget{buscas_8h}{}\doxysection{Referência do Arquivo Exercicios/buscas.h}
+\label{buscas_8h}\index{Exercicios/buscas.h@{Exercicios/buscas.h}}
+
+
+Arquivo destinado a estudar buscas em vetores Análise e estudo de formas de busca e ordenação de dados em vetores (bubble sort e binary search)  
+
+
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$locale.\+h$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+Gráfico de dependência de inclusões para buscas.\+h\+:
+% FIG 0
+\doxysubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{buscas_8h_a0829c4fc59a8e8bc6e9ab0b6271ef665}{gerar\+Aleatorio\+Ordenado}} (int $\ast$vetor, int n)
+\begin{DoxyCompactList}\small\item\em Gera uma sequência aleatória de números em ordem. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{buscas_8h_a63605fd04c3d1950b306a87bf35d4b4c}{gerar\+Aleatorio}} (int $\ast$vetor, int n)
+\begin{DoxyCompactList}\small\item\em Gera uma sequência completamente aleatória de números. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{buscas_8h_a855a8ea7ad75a7dfdeea2693e6ba1403}{bubble\+Sort}} (int $\ast$vetor, int n)
+\begin{DoxyCompactList}\small\item\em Ordena o vetor por bubble sort. Ordena o vetor passado usando o método de bubble sort com complexidade O( n $\ast$ n ) \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{buscas_8h_a11f5cf73092078bb24d4905f7d4282dc}{binary\+Search}} (int $\ast$vetor, int chave, int n)
+\begin{DoxyCompactList}\small\item\em Busca binária de dados em vetor em ordem crescente. Busca dados em um vetor ordenado, usando busca binária com complexidade O( log(n) ). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descrição detalhada}
+Arquivo destinado a estudar buscas em vetores Análise e estudo de formas de busca e ordenação de dados em vetores (bubble sort e binary search) 
+
+
+
+\doxysubsection{Funções}
+\mbox{\Hypertarget{buscas_8h_a11f5cf73092078bb24d4905f7d4282dc}\label{buscas_8h_a11f5cf73092078bb24d4905f7d4282dc}} 
+\index{buscas.h@{buscas.h}!binarySearch@{binarySearch}}
+\index{binarySearch@{binarySearch}!buscas.h@{buscas.h}}
+\doxysubsubsection{\texorpdfstring{binarySearch()}{binarySearch()}}
+{\footnotesize\ttfamily int binary\+Search (\begin{DoxyParamCaption}\item[{int $\ast$}]{vetor,  }\item[{int}]{chave,  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Busca binária de dados em vetor em ordem crescente. Busca dados em um vetor ordenado, usando busca binária com complexidade O( log(n) ). 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em chave} & O valor a ser buscado no vetor. \\
+\hline
+{\em n} & O tamanho do vetor. \\
+\hline
+{\em vetor} & O vetor.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+O índice do item desejado, ou -\/1, caso não seja encontrado. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{buscas_8h_a855a8ea7ad75a7dfdeea2693e6ba1403}\label{buscas_8h_a855a8ea7ad75a7dfdeea2693e6ba1403}} 
+\index{buscas.h@{buscas.h}!bubbleSort@{bubbleSort}}
+\index{bubbleSort@{bubbleSort}!buscas.h@{buscas.h}}
+\doxysubsubsection{\texorpdfstring{bubbleSort()}{bubbleSort()}}
+{\footnotesize\ttfamily void bubble\+Sort (\begin{DoxyParamCaption}\item[{int $\ast$}]{vetor,  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Ordena o vetor por bubble sort. Ordena o vetor passado usando o método de bubble sort com complexidade O( n $\ast$ n ) 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em vetor} & O vetor a ser ordenado \\
+\hline
+{\em n} & O tamanho do vetor \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{buscas_8h_a63605fd04c3d1950b306a87bf35d4b4c}\label{buscas_8h_a63605fd04c3d1950b306a87bf35d4b4c}} 
+\index{buscas.h@{buscas.h}!gerarAleatorio@{gerarAleatorio}}
+\index{gerarAleatorio@{gerarAleatorio}!buscas.h@{buscas.h}}
+\doxysubsubsection{\texorpdfstring{gerarAleatorio()}{gerarAleatorio()}}
+{\footnotesize\ttfamily void gerar\+Aleatorio (\begin{DoxyParamCaption}\item[{int $\ast$}]{vetor,  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Gera uma sequência completamente aleatória de números. 
+
+\begin{DoxyWarning}{Aviso}
+A função exige que o vetor já tenha sido alocado na memoria.
+\end{DoxyWarning}
+
+\begin{DoxyParams}{Parâmetros}
+{\em vetor} & O vetor a ser gerado. \\
+\hline
+{\em n} & O tamanho do vetor. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{buscas_8h_a0829c4fc59a8e8bc6e9ab0b6271ef665}\label{buscas_8h_a0829c4fc59a8e8bc6e9ab0b6271ef665}} 
+\index{buscas.h@{buscas.h}!gerarAleatorioOrdenado@{gerarAleatorioOrdenado}}
+\index{gerarAleatorioOrdenado@{gerarAleatorioOrdenado}!buscas.h@{buscas.h}}
+\doxysubsubsection{\texorpdfstring{gerarAleatorioOrdenado()}{gerarAleatorioOrdenado()}}
+{\footnotesize\ttfamily void gerar\+Aleatorio\+Ordenado (\begin{DoxyParamCaption}\item[{int $\ast$}]{vetor,  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Gera uma sequência aleatória de números em ordem. 
+
+\begin{DoxyWarning}{Aviso}
+A função exige que o vetor já tenha sido alocado na memória.
+\end{DoxyWarning}
+
+\begin{DoxyParams}{Parâmetros}
+{\em vetor} & Vetor a ser gerado \\
+\hline
+{\em n} & Tamanho do vetor a ser gerado \\
+\hline
+\end{DoxyParams}

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['matrizes_2eh_23',['matrizes.h',['../matrizes_8h.html',1,'']]]
+  ['buscas_2eh_27',['buscas.h',['../buscas_8h.html',1,'']]]
 ];

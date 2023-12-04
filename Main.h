@@ -1,6 +1,10 @@
 /**
  * @file
  * @brief Projeto destinado a estudos de Estruturas de Dados.
+ *
+ * Arquivo header referente ao arquivo "Main.c", que referencia todos os outros arquivos a serem executados.
+ * Cada arquivo contém um código exclusivo a si, destinado a um propósito, e possui uma função que pode ser chamada
+ * apartir da main para executá-lo.
  */
 #ifndef ESTRUTURASDEDADOS_MAIN_H
 #define ESTRUTURASDEDADOS_MAIN_H
@@ -30,6 +34,10 @@
 //Árvores
 #include "Arvores/ArvoreBinaria.h"
 
+/**
+ * @brief Verifica o sistema operacional atual.
+ * @return Um string "linux" para sistemas linux ou "windows" para sistemas windows.
+ */
 char* verificarOS();
 
 

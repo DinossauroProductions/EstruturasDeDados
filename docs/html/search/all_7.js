@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['redefinirmatriz_17',['redefinirMatriz',['../matrizes_8h.html#ae566994fea011e52848bfef5efe83791',1,'matrizes.c']]]
+  ['main_2eh_13',['Main.h',['../Main_8h.html',1,'']]],
+  ['matriz_14',['matriz',['../structmatriz.html',1,'']]]
 ];

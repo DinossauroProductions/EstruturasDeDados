@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['freem_30',['freeM',['../matrizes_8h.html#a3603a7aed3754232acfa6a8c7121a9c3',1,'matrizes.c']]]
+  ['verificaros_34',['verificarOS',['../Main_8h.html#a8d5fdfeebf8cf2f3e1c43caf4f4e5af5',1,'Main.c']]]
 ];

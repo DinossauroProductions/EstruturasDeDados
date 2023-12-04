@@ -80,6 +80,8 @@ void bubbleSort(int *vetor, int n){
 }
 
 void gerarAleatorioOrdenado(int *vetor, int n){
+    if(vetor == NULL)
+        return;
     int contador = 0;
     for(int i = 0; i < n; i++){
         srand(time(NULL));

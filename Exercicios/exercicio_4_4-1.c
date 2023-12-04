@@ -12,6 +12,7 @@ int getTamanho();
 int pilha[MAX];
 int topo=0;
 int tamanho=0;
+
 int exercicio_4_4_1(){
     push(10);
     push(20);
