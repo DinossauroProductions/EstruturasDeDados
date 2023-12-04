@@ -1,0 +1,35 @@
+\hypertarget{Main_8h}{}\doxysection{Referência do Arquivo Main.\+h}
+\label{Main_8h}\index{Main.h@{Main.h}}
+
+
+Projeto destinado a estudos de Estruturas de Dados.  
+
+
+{\ttfamily \#include $<$locale.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Exercicios/aritmetica\+Ponteiros.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Exercicios/\+Recursividade.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Exercicios/exercicio\+\_\+4\+\_\+4-\/1.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Exercicios/exercicio\+\_\+4\+\_\+4-\/4.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Exercicios/exercicio\+\_\+5\+\_\+4-\/2.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Exercicios/exercicio\+\_\+5\+\_\+4-\/3.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Exercicios/exercicio\+\_\+5\+\_\+4-\/4.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Exercicios/exercicio\+\_\+5\+\_\+4-\/5.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Exercicios/exercicio\+\_\+8\+\_\+3-\/1\+:2\+:3.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Libs/\+Matrizes.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Listas/\+Lista\+Encadeada.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Listas/\+Lista\+Contigua\+Dinamica.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Listas/\+Lista\+LIFOEncadeada.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Arvores/\+Arvore\+Binaria.\+h\char`\"{}}\newline
+Gráfico de dependência de inclusões para Main.\+h\+:
+% FIG 0
+\doxysubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{Main_8h_a8d5fdfeebf8cf2f3e1c43caf4f4e5af5}\label{Main_8h_a8d5fdfeebf8cf2f3e1c43caf4f4e5af5}} 
+char $\ast$ {\bfseries verificar\+OS} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descrição detalhada}
+Projeto destinado a estudos de Estruturas de Dados. 
+
